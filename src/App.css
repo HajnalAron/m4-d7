@@ -1,0 +1,44 @@
+.App {
+  background-color: #141414;
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.margins {
+  margin-left: 3vh !important;
+}
+
+.NetflixNav {
+  background-color: #141414;
+}
+
+.Transparent {
+  background: #141414 !important;
+  color: #141414 !important;
+  border: #141414 !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
